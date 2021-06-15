@@ -1,0 +1,115 @@
+{
+  "packages": [
+    {
+      "name": "GD32",
+      "websiteURL": "https://www.gigadevice.com/",
+      "maintainer": "GigaDevice",
+      "email": "",
+      "help": {
+        "online": "https://www.gigadevice.com/"
+      },
+      "platforms": [
+         {
+          "name": "",
+          "architecture": "gd32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "",
+          "archiveFileName": "",
+          "checksum": "",
+          "size": "",
+          "boards": [
+            {
+              "name": "GD32F307VG MBED"
+            },
+            {
+              "name": "GD32F307VC EVAL"
+            },
+            {
+              "name": "GD32F303ZE EVAL"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "9.2.1-1.1",
+              "name": "xpack-arm-none-eabi-gcc",
+              "packager": "GD32"
+          },
+          {
+              "version": "1.0.0",
+              "name": "gd32tools",
+              "packager": "GD32"
+          }
+          ]
+        }
+      ],
+      "tools": {
+        "name": "gd32tools",
+        "version": "1.0.0",
+        "systems": [
+            {
+                "checksum": "",
+                "url": "",
+                "archiveFileName": "",
+                "host": "i686-mingw32",
+                "size": ""
+            }
+        ]
+      }
+    },
+    {
+      "name": "GD32",
+      "websiteURL": "https://www.gigadevice.com/",
+      "maintainer": "GigaDevice",
+      "email": "",
+      "help": {
+        "online": "https://www.gigadevice.com/"
+      },
+      "platforms": [
+         {
+          "name": "",
+          "architecture": "gd32_riscv",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "",
+          "archiveFileName": "",
+          "checksum": "",
+          "size": "",
+          "boards": [
+            {
+              "name": "GD32VF103"
+            },
+            {
+              "name": "GD32VF103V EVAL"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "10.1.0-1.1",
+              "name": "xpack-riscv-none-embed-gcc",
+              "packager": "GD32"
+          },
+          {
+              "version": "1.0.0",
+              "name": "gd32tools",
+              "packager": "GD32"
+          }
+          ]
+        }
+      ],
+      "tools": {
+        "name": "gd32tools",
+        "version": "1.0.0",
+        "systems": [
+            {
+                "checksum": "",
+                "url": "",
+                "archiveFileName": "",
+                "host": "i686-mingw32",
+                "size": ""
+            }
+        ]
+      }
+    }
+  ]
+}
